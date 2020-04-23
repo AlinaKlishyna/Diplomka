@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".BlankFragment_2"
+    android:layout_gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/test_1"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:background="@drawable/test_ones"
+            android:text="Перша частина" />
+
+        <Button
+            android:id="@+id/test_2"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/test_two"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="Друга частина" />
+
+        <Button
+            android:id="@+id/test_3"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/test_thee"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:text="Третя частина" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
+
+

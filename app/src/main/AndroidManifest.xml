@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.history">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_drawable"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_drawable"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.history.MainActivity" />
+        </activity>
+
+        <activity android:name=".MainActivity_search_1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".MainActivity_search_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity_test_1">
+            <intent-filter>
+                <action android:name=".MainActivity_test_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity_test_2">
+            <intent-filter>
+                <action android:name=".MainActivity_test_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_test_3">
+            <intent-filter>
+                <action android:name=".MainActivity_test_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ScrollingActivity_1"
+            android:label="@string/button_1"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ScrollingActivity_2"
+            android:label="@string/button_2"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_3"
+            android:label="@string/button_3"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_4"
+            android:label="@string/button_4"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_5"
+            android:label="@string/button_5"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_6"
+            android:label="@string/button_6"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_7"
+            android:label="@string/button_7"
+            android:theme="@style/AppTheme">
+            А
+            <intent-filter>
+                <action android:name=".ScrollingActivity_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollingActivity_8"
+            android:label="@string/button_8"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".ScrollingActivity_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_search_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".MainActivity_search_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_search_3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".MainActivity_search_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
